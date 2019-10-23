@@ -34,7 +34,7 @@ public class Species {
                 + "; Infra name: " + (infra_name == null ? "N/A" : infra_name)
                 + "; Population: " + (population == null ? "N/A" : population)
                 + "; Category: " + category
-                + (conservation_measures == null ? ";" : "; Conservation measures: " + conservation_measures + ";");
+                + (conservation_measures == null ? ";" : "; Conservation measures: [" + conservation_measures + "];");
     }
 
     public Long getTaxonid() {
