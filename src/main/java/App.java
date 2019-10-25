@@ -28,7 +28,7 @@ public class App {
     private static final String REGION_SPECIES_URL = "/species/region";
     private static final String FIRST_PAGE_URL = "/page/0";
     private static final String MEASURES_URL = "/measures/species/id";
-    private static final String TOKEN = "?token=9bb4facb6d23f48efbf424bb05c0c1ef1cf6f468393bc745d42179ac4aca5fee"; //Temp token
+    private static final String TOKEN = "?token=7ec8cf61fe44ba78051604bdd07434181afbc22fc59a7bb2d08f943b8dc3695f";
 
     private static final HttpClient httpClient = HttpClient.newBuilder()
             .version(HttpClient.Version.HTTP_2)
